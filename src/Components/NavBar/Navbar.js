@@ -10,12 +10,13 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Link, NavLink } from "react-router-dom";
 
 import logo from '../../Photos/Logo.png';
+import './Navbar.css';
 // import logo from './logo.svg';
 
 export  default function Navb() {
     return (
         <>
-            <Navbar collapseOnSelect bg="light" variant="light" expand="lg">
+            <Navbar id="seethrough" sticky="top" collapseOnSelect bg="light" variant="light" expand="lg">
                 <Container>
                     <Link to={'/'} style={{ textDecoration: 'none' }}>
                         <Navbar.Brand>
@@ -32,40 +33,37 @@ export  default function Navb() {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="px-5">
                             <Link to={'/'} style={{ textDecoration: 'none' }}>
-                                <Button sx={{bgcolor: "blue"}} variant="contained" size="medium">
+                                <Button id="bot" sx={{bgcolor: "blue"}} variant="contained" size="medium">
                                     Home
                                 </Button>
                             </Link>
                         </Nav>
-                        {/* <Nav className="px-3"> */}
+                        <Nav className="me-auto">
                         <Link to={'/projects'} style={{ textDecoration: 'none' }}>
-                            <Button sx={{bgcolor: "blue"}} variant="contained" size="medium">
+                            <Button id="bot" sx={{bgcolor: "blue"}} variant="contained" size="medium">
                                 Projects
                             </Button>
                         </Link>
-                        {/* </Nav> */}
-                        <Nav className="me-auto"></Nav>
+                        </Nav>
                         <IconButton
                             href="https://www.linkedin.com/in/craig-canepa1999/"
-                            // onClick={handleClick}
+                            target="_blank"
+                            rel="noreferrer noopener"
                             size="large"
                             sx={{ ml: 2 }}
-                            // aria-controls={open ? 'account-menu' : undefined}
                             aria-haspopup="true"
                             color="primary"
-                            // aria-expanded={open ? 'true' : undefined}
                         >
                             <Avatar sx={{ width: 52, height: 52, bgcolor: "blue"}}><LinkedInIcon/></Avatar>
                         </IconButton>
                         <IconButton
                             href="https://github.com/Craigcanepa10"
-                            // onClick={handleClick}
+                            target="_blank"
+                            rel="noreferrer noopener"
                             size="large"
                             sx={{ ml: 2 }}
-                            // aria-controls={open ? 'account-menu' : undefined}
                             aria-haspopup="true"
                             color="primary"
-                            // aria-expanded={open ? 'true' : undefined}
                         >
                             <Avatar sx={{ width: 52, height: 52, bgcolor: "blue"}}><GitHubIcon/></Avatar>
                         </IconButton>

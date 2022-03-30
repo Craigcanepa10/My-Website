@@ -6,3 +6,16 @@
 #breaky{
     margin-bottom: 1.5rem;
 }
+.link {
+    color: rgb(255, 255, 255);
+  }
+.link:hover {
+    color: #ffffff
+}
+
+a {
+    color: rgb(255, 255, 255);
+  }
+a:hover {
+    color: #ffffff
+}

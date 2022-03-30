@@ -31,12 +31,9 @@ function MyVerticallyCenteredModalP1(props) {
           </p>
           <h4>Link to Website:</h4>
           <p>
-          <Button sx={{bgcolor: "blue"}} variant="contained" href="https://drfischerdds.com">Dr Fischer DDS</Button>
+          <Button sx={{bgcolor: "blue", textDecoration: 'none', color:"white"}} variant="contained" href="https://drfischerdds.com" target="_blank" rel="noreferrer noopener">Dr Fischer DDS</Button>
           </p>
         </Modal.Body>
-        {/* <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
-        </Modal.Footer> */}
       </Modal>
     );
   }
@@ -64,12 +61,9 @@ function MyVerticallyCenteredModalP1(props) {
           </p>
           <h4>Link to Website:</h4>
           <p>
-          <Button sx={{bgcolor: "blue"}} variant="contained" href="https://sluintern.com">Intern Form</Button>
+          <Button sx={{bgcolor: "blue"}} variant="contained" href="https://sluintern.com" target="_blank" rel="noreferrer noopener">Intern Form</Button>
           </p>
         </Modal.Body>
-        {/* <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
-        </Modal.Footer> */}
       </Modal>
     );
   }
@@ -97,12 +91,9 @@ function MyVerticallyCenteredModalP1(props) {
           </p>
           <h4>Link to Website:</h4>
           <p>
-          <Button sx={{bgcolor: "blue"}} variant="contained" href="https://craigcanepa.com">My Website</Button>
+          <Button sx={{bgcolor: "blue"}} variant="contained" href="https://craigcanepa.com" target="_blank" rel="noreferrer noopener">My Website</Button>
           </p>
         </Modal.Body>
-        {/* <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
-        </Modal.Footer> */}
       </Modal>
     );
   }
@@ -119,7 +110,7 @@ export  default function Navb() {
         </Row>
         <Row>
             <Col md lg sm ><Button id="breaky" sx={{bgcolor: "blue", width: 200, height: 52}} variant="contained" onClick={() => setModalShowP1(true)}>Dr Fischer</Button></Col>
-            <Col md lg sm ><Button id="breaky" sx={{bgcolor: "blue", width: 200, height: 52}} variant="contained" onClick={() => setModalShowP2(true)}>411 Intern Form</Button></Col>
+            <Col md lg sm ><Button id="breaky" sx={{bgcolor: "blue", width: 200, height: 52}} variant="contained" onClick={() => setModalShowP2(true)}>Capstone Intern Form</Button></Col>
             <Col md lg sm ><Button id="breaky" sx={{bgcolor: "blue", width: 200, height: 52}} variant="contained" onClick={() => setModalShowP3(true)}>My Website</Button></Col>
         </Row>
         <MyVerticallyCenteredModalP1

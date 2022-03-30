@@ -52,7 +52,7 @@ function Home() {
             <Card.Body>
               <Row>
                 <Col>
-                  <Card.Img variant="bottom" src={Java} width="20" height="130"/>
+                  <Card.Img variant="bottom" src={Java} width="20" height="110"/>
                 </Col>
                 <Col id="testy">
                   <Card.Text>
@@ -69,7 +69,7 @@ function Home() {
             <Card.Body>
               <Row>
                 <Col>
-                  <Card.Img variant="bottom" src={JS} width="20" height="130"/>
+                  <Card.Img variant="bottom" src={JS} width="20" height="110"/>
                 </Col>
                 <Col id="testy">
                   <Card.Text>
@@ -86,7 +86,7 @@ function Home() {
             <Card.Body>
               <Row>
                 <Col>
-                  <Card.Img variant="bottom" src={TS} width="20" height="130"/>
+                  <Card.Img width="280" height="110" src={TS}/>
                 </Col>
                 <Col id="testy">
                   <Card.Text>
@@ -104,7 +104,7 @@ function Home() {
             <Card.Body>
               <Row>
                 <Col>
-                  <Card.Img variant="bottom" src={React} width="0" height="130"/>
+                  <Card.Img variant="bottom" src={React} width="0" height="110"/>
                 </Col>
                 <Col id="testy">
                   <Card.Text>
@@ -121,7 +121,7 @@ function Home() {
             <Card.Body>
               <Row>
                 <Col>
-                  <Card.Img variant="bottom" src={ASP} height="130"/>
+                  <Card.Img variant="bottom" src={ASP} height="110"/>
                 </Col>
                 <Col id="testy">
                   <Card.Text>
@@ -142,11 +142,11 @@ function Home() {
             <Card.Body>
               <Row>
                 <Col>
-                  <Card.Img variant="bottom" src={VSC} width="20" height="130"/>
+                  <Card.Img variant="bottom" src={VSC} width="20" height="110"/>
                 </Col>
                 <Col id="testy">
                   <Card.Text>
-                    <div id="cardwords">VS Code</div>
+                    <div id="cardwordslg">VS Code</div>
                   </Card.Text>
                 </Col>
               </Row>
@@ -158,11 +158,11 @@ function Home() {
             <Card.Body>
               <Row>
                 <Col>
-                  <Card.Img variant="bottom" src={VS} width="20" height="130"/>
+                  <Card.Img variant="bottom" src={VS} width="20" height="110"/>
                 </Col>
                 <Col id="testy">
                   <Card.Text>
-                    <div id="cardwords">Visual Studio</div>
+                    <div id="cardwordslg">Visual Studio</div>
                   </Card.Text>
                 </Col>
               </Row>
@@ -174,7 +174,7 @@ function Home() {
             <Card.Body>
               <Row>
                 <Col>
-                  <Card.Img variant="bottom" src={IJ} width="20" height="130"/>
+                  <Card.Img variant="bottom" src={IJ} width="20" height="110"/>
                 </Col>
                 <Col id="testy">
                   <Card.Text>
@@ -192,7 +192,7 @@ function Home() {
             <Card.Body>
               <Row>
                 <Col>
-                  <Card.Img variant="bottom" src={AWS} width="20" height="130"/>
+                  <Card.Img variant="bottom" src={AWS} width="20" height="110"/>
                 </Col>
                 <Col id="testy">
                   <Card.Text>
@@ -208,7 +208,7 @@ function Home() {
             <Card.Body>
               <Row>
                 <Col>
-                  <Card.Img variant="bottom" src={AZ} width="20" height="130"/>
+                  <Card.Img variant="bottom" src={AZ} width="20" height="110"/>
                 </Col>
                 <Col id="testy">
                   <Card.Text>
@@ -224,11 +224,11 @@ function Home() {
             <Card.Body>
               <Row>
                 <Col>
-                  <Card.Img variant="bottom" src={Term} width="20" height="130"/>
+                  <Card.Img variant="bottom" src={Term} width="20" height="110"/>
                 </Col>
                 <Col id="testy">
                   <Card.Text>
-                    <div id="cardwords">Unix Terminal</div>
+                    <div id="cardwordslg">Unix Terminal</div>
                   </Card.Text>
                 </Col>
               </Row>
@@ -242,7 +242,7 @@ function Home() {
             <Card.Body>
               <Row>
                 <Col>
-                  <Card.Img variant="bottom" src={MacOS} width="20" height="130"/>
+                  <Card.Img variant="bottom" src={MacOS} width="20" height="110"/>
                 </Col>
                 <Col id="testy">
                   <Card.Text>
@@ -258,7 +258,7 @@ function Home() {
             <Card.Body>
               <Row>
                 <Col>
-                  <Card.Img variant="bottom" src={Win} width="20" height="130"/>
+                  <Card.Img variant="bottom" src={Win} width="20" height="110"/>
                 </Col>
                 <Col id="testy">
                   <Card.Text>
