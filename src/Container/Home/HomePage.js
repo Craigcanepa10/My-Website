@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import './HomePage.css';
 
-import logo from '../../Photos/Me.JPEG';
+import logo from '../../Photos/Me.PNG';
 import Java from '../../Photos/Languages/Java.png';
 import ASP from '../../Photos/Languages/ASPNet.png';
 import JS from '../../Photos/Languages/JavaScript.png';
@@ -31,7 +31,7 @@ function Home() {
           <div id="NameHead"><b>Craig S. Canepa Jr.</b></div> 
           <div id="majorcontacthead"><b>Information Technology Major · CSC@craigcanepa.com · (504)-655-3982</b></div>
           <div id="aboutmehead">About Me</div>
-          <div id="aboutmebody">I am a software developer, who excels in front end development and can quickly put together a react front end. Even though I excel in the front end I am able to pickup any part of a project that is needed. My skills do not just stop at programming I am also a great Mario Kart player and can make a mean hamburger, and pizza.</div>
+          <div id="aboutmebody">I am a software developer who excels in front end development and can quickly put together a react front end. Even though I excel in the front end, I can pick up any part of a project that is needed. My skills do not just stop at programming; I am also a great Mario Kart player, and I can make a mean hamburger and pizza. </div>
         </Col>
       </Row>
       </Container>
