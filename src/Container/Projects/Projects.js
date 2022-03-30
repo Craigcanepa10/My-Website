@@ -118,9 +118,9 @@ export  default function Navb() {
             <Col> <div id="Projhead">Projects</div></Col>
         </Row>
         <Row>
-            <Col md lg sm ><Button sx={{bgcolor: "blue", width: 200, height: 52}} variant="contained" onClick={() => setModalShowP1(true)}>Dr Fischer</Button></Col>
-            <Col md lg sm ><Button sx={{bgcolor: "blue", width: 200, height: 52}} variant="contained" onClick={() => setModalShowP2(true)}>411 Intern Form</Button></Col>
-            <Col md lg sm ><Button sx={{bgcolor: "blue", width: 200, height: 52}} variant="contained" onClick={() => setModalShowP3(true)}>My Website</Button></Col>
+            <Col md lg sm ><Button id="breaky" sx={{bgcolor: "blue", width: 200, height: 52}} variant="contained" onClick={() => setModalShowP1(true)}>Dr Fischer</Button></Col>
+            <Col md lg sm ><Button id="breaky" sx={{bgcolor: "blue", width: 200, height: 52}} variant="contained" onClick={() => setModalShowP2(true)}>411 Intern Form</Button></Col>
+            <Col md lg sm ><Button id="breaky" sx={{bgcolor: "blue", width: 200, height: 52}} variant="contained" onClick={() => setModalShowP3(true)}>My Website</Button></Col>
         </Row>
         <MyVerticallyCenteredModalP1
         show={modalShowP1}
