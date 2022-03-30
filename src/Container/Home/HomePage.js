@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import './HomePage.css';
 
-import logo from '../../Photos/Me.PNG';
+import Me from '../../Photos/photoofme/NewMePhoto.png';
 import Java from '../../Photos/Languages/Java.png';
 import ASP from '../../Photos/Languages/ASPNet.png';
 import JS from '../../Photos/Languages/JavaScript.png';
@@ -26,7 +26,7 @@ function Home() {
     <Container>
     <Container className="Intro">
       <Row>
-        <Col md lg sm className="imagecent"><img src={logo} width="302.4" height="403.2"/></Col>
+        <Col md lg sm className="imagecent"><img src={Me} width="302.4" height="403.2"/></Col>
         <Col md lg sm className="restrict">
           <div id="NameHead"><b>Craig S. Canepa Jr.</b></div> 
           <div id="majorcontacthead"><b>Information Technology Major · CSC@craigcanepa.com · (504)-655-3982</b></div>
