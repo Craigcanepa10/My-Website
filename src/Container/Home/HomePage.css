@@ -1,0 +1,63 @@
+.Intro{
+  margin-top: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  /* background-color: darkgreen; */
+}
+.imagecent{
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+}
+.restrict{
+  /* background-color: peachpuff; */
+  min-width: 440px; 
+  /* 660px */
+  min-height: 268.66px;
+  /* 403px */
+}
+#NameHead{
+  font-size: 4rem;
+}
+#aboutmehead{
+  font-size: 3rem;
+}
+#aboutmebody{
+  text-align: left;
+}
+#eduhead{
+  /* background-color: red; */
+  font-size: 3rem;
+}
+#edubody{
+  /* background-color: red; */
+  text-align: left;
+  /* justify-content: start; */
+}
+#LLhead{
+  margin-top: 2.3rem;
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+}
+#cardwords{
+  font-size: 3rem;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+#testy{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#cards{
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2) !important; 
+  border-radius: 5px !important;
+  background-color: rgba(255, 255, 255, .15) !important;
+  
+  backdrop-filter: blur(5px) !important;
+  margin-bottom: 2.3rem;
+  max-height: 164px;
+}
